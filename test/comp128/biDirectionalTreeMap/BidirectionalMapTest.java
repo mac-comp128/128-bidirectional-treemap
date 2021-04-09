@@ -1,11 +1,11 @@
 package comp128.biDirectionalTreeMap;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.*;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class BidirectionalMapTest {
 
@@ -14,7 +14,7 @@ public class BidirectionalMapTest {
     private List< AbstractMap.SimpleImmutableEntry<String, Integer> > entries;
     private BidirectionalTreeMap<String, Integer> map;
     
-    @Before
+    @BeforeEach
     public void setup(){
         keys = new ArrayList<>(6);
         keys.add("carrot");
