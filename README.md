@@ -1,4 +1,4 @@
-# COMP 128 Homework 4: Bidirectional Tree Map
+# COMP 128 Homework 3: Bidirectional Tree Map
 
 ### Project description
 
