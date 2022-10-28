@@ -49,7 +49,7 @@ The provided code in BidirectionalTreeMap illustrates the basic functionality of
  
  Hints to avoid code duplication:
  
- - Method parameters with generics can be declared with <a>wildcards</a>, e.g. `Node<? extends Comparable, ?>`. This allows the generics
+ - Method parameters with generics can be declared with <a href="https://docs.oracle.com/javase/tutorial/extra/generics/wildcards.html">wildcards</a>, e.g. `Node<? extends Comparable, ?>`. This allows the generics
  to be either K or V and still allows you to call compareTo on the key. 
  - If you need a method parameter of type K *or* V, you can instead pass the data as a Node with wildcard generics, and reference the K or V variable using the Node's data variable.
  
